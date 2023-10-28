@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightcyan;
+}
+
+#hcb {
+    background-color: lightgreen;
+    color: white;
+    margin: 0;
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu li {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid salmon;
+    border-radius: 5px;
+}
+
+.menu li:nth-child(1) { 
+    background-color: lightblue; 
+    position: fixed;
+    top: 97px;
+}
+.menu li:nth-child(2) { 
+    background-color: lightskyblue; 
+    position: fixed;
+    top: 197px;
+}
+.menu li:nth-child(3) { 
+    background-color: lightseagreen; 
+    position: fixed;
+    top: 297px;
+}
+
+.texto h2 {
+    text-align: center;
+}
+
+.texto {
+    max-width: calc(100% - 250px);
+    margin: 0 auto;
+}
+
+.tabela {
+    margin: 0 auto;
+    text-align: left;
+    background: aquamarine;
+    color: palegreen;
+    padding: 20px;
+}
+
+.tabela h2 {
+    text-align: center;
+    color: salmon;
+}
+
+.tabela table {
+    display: flex;
+    justify-content: center;
+}
+
+.tabela th{
+    padding: 6px;
+    text-align: center;
+}
+
+.tabela td, tr {
+    margin: 0;
+    padding: 3px;
+}
+
+.tabela tr {
+    background-color: lightcoral;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: lightgreen;
+    color: lightcoral;
+}
+
+.tabela tr:hover {
+    background-color: purple;
+}
+
+#pnl {
+    padding: 10px;
+    text-align: center;
+}
+
+#pnl button {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 0px;
+    margin: 5px 20px;
+    box-shadow: 2px 2px 2px black, -2px -2px 2px black, -2px 2px 2px black, 2px -2px 2px black;
+}
+
+#pnl button:hover {
+    background-color: pink;
+}
+
+button img {
+    object-fit: cover;
+}
+
+.rodape {
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: brown;
+}
+
+.rodape:hover {
+    background-color: aquamarine;
+}

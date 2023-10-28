@@ -1,0 +1,54 @@
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid aqua;
+}
+
+.absolute-box {
+    border: 2px solid pink;
+    position: absolute;
+    top: 400px;
+    right: 400px;
+    bottom: 400px;
+    left: 400px;
+}
+
+.relative-box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid lightgreen;
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+
+.float-box {
+    float: right;
+    height: 100px;
+    width: 100px;
+    border: 2px solid lightslategray;
+}
+
+.z-index-box {
+    position: absolute;
+    z-index: -1;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+
+.rotate-box {
+    padding-top: 20px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(255, 255, 0);
+    transform: rotate(45deg);
+}
+
+.translate-box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(255, 0, 0);
+    transform: translate(100px, 100px);
+}

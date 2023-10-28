@@ -1,0 +1,17 @@
+p::first-line {
+    color: chocolate;
+    background-color: aqua;
+}
+
+li::marker {
+    color: pink;
+}
+
+p::first-letter {
+    color: rgb(4, 0, 255);
+    font-size: 23pt;
+}
+
+div::before {
+    content: url("download.jpg");
+}

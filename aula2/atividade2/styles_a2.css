@@ -1,0 +1,25 @@
+div {
+    text-align: center;
+    margin: 10px;
+}
+
+.box3 {
+    border: 2px solid blue;
+}
+
+.circular {
+    border: 2px solid pink;
+    border-radius: 50px;
+}
+
+.pontilhadas {
+    border-style: dotted;
+}
+
+.tracejadas {
+    border-style: dashed;
+}
+
+.duplas {
+    border-style: double;
+}

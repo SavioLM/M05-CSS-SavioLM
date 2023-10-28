@@ -1,0 +1,20 @@
+div {
+    padding: 3px;
+    border: 2px solid blue;
+}
+
+.box1 {
+    margin: 10px;
+    border: 2px solid green;
+}
+
+.box2 {
+    margin: 10px 10px 10px 250px;
+    border: 2px solid red;
+}
+
+
+
+
+
+

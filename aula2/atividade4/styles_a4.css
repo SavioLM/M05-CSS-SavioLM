@@ -1,0 +1,18 @@
+.cartao {
+    margin: 15px;
+    border: 5px solid green;
+    padding: 5px;
+    width: 400px;
+}
+
+.cartao img {
+    width: 100%;
+}
+
+.cartao h2, .cartao p {
+    margin: 0%;
+}
+
+.cartoes {
+    display: flex;
+}
